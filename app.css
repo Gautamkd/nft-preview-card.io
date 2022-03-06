@@ -1,0 +1,138 @@
+body {
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+}
+
+section {
+	background-color: hsl(216, 50%, 16%);
+	width: 290px;
+	height: 500px;
+	border-radius: 15px;
+	margin: 60px auto;
+}
+
+.container {
+	position: relative;
+	width: 250px;
+}
+
+.rubic {
+	width: 100%;
+	margin: 20px;
+	border-radius: 10px;
+}
+
+
+.eye{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	
+}
+.backcard{
+	background-color: hsl(178, 100%, 50%,50%);
+	width: 100%;
+	height: 85%;
+	position:absolute;
+	top:20px;
+	left:20px;
+	border-radius: 10px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+	
+}
+
+
+.backcard:hover{
+	opacity: 1;
+	cursor:pointer;
+}
+
+.head {
+	color: white;
+	font-weight: 600;
+	margin-top: 0px;
+}
+
+.head:hover{
+	color: cyan;
+	cursor: pointer;
+	
+}
+
+
+.exp {
+	color: hsl(215, 51%, 70%);
+	font-size: 12px;
+	font-weight: 200;
+	display: block;
+	margin-top: 15px;
+}
+
+.equilibrium {
+	margin: 0 20px;
+}
+
+
+.icons {
+	margin: 20px 20px 0px 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+p {
+	margin: 0px;
+	display: inline-block;
+}
+
+.eth {
+	color: cyan;
+	font-size: 14px;
+}
+
+.etherium {
+	vertical-align: middle;
+}
+
+.clock {
+	margin-left: 80px;
+	vertical-align: middle;
+}
+
+.time {
+	font-size: 14px;
+	color: hsl(215, 51%, 70%);
+	vertical-align: middle;
+}
+
+footer {
+	margin: 20px;
+}
+
+footer img {
+	width: 30px;
+	border: 1px solid white;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+footer p {
+	font-size: 15px;
+	display: inline;
+	align-items: center;
+	font-weight: 200;
+	color: hsl(215, 51%, 70%);
+	padding-left: 8px;
+	font-weight: 300;
+}
+.text {
+	color: white;
+}
+
+.text:hover{
+	cursor: pointer;
+	color: cyan;
+}
+
+@media (max-width: 375px) {
+}
